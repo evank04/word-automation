@@ -1,33 +1,63 @@
-<h1 align="left">word-automation</h1>
+# Excel to Word Automation Project
 
-###
+This project automates the process of transferring data from multiple Excel spreadsheets into a formatted Word document. It provides a graphical user interface (GUI) for ease of use and ensures consistent and accurate data formatting. The project is ideal for scenarios requiring repetitive data entry and document generation, such as generating Site Acceptance Test (SAT) reports.
 
-<p align="left">This project automates the process of transferring data from multiple Excel spreadsheets into a formatted Word document. The purpose is to keep a digital record of hardcopies.</p>
+## Features
 
-###
+- **Excel Data Extraction**: Reads data from multiple Excel sheets using the `openpyxl` library.
+- **Word Document Generation**: Populates a Word document template using the `docxtpl` library.
+- **GUI Integration**: User-friendly interface built with `tkinter` for selecting files and initiating the conversion process.
+- **Error Reduction**: Ensures consistent formatting and reduces manual data entry errors.
+- **Time Efficiency**: Significantly decreases the time required for creating reports by automating the process.
 
-<div align="center">
-  <img height="" src="https://evank04projectbucket.s3.ap-southeast-1.amazonaws.com/Screenshot+2024-12-21+175108.png"  />
-</div>
+## Requirements
 
-###
+- Python 3.8+
+- Libraries:
+  - `openpyxl`
+  - `docxtpl`
+  - `tkinter`
+  - `threading`
+- Dependencies can be installed using:
+  ```bash
+  pip install openpyxl docxtpl
+  ```
 
-<h2 align="left">Features</h2>
+## How to Use
 
-###
+1. Clone this repository or download the project files.
+2. Ensure the required Python libraries are installed.
+3. Run the script:
+   ```bash
+   python xl-doc_convert.py
+   ```
+4. Use the GUI to:
+   - Enter the crane name.
+   - Select the Excel file to be processed.
+   - Click the **Convert** button to generate the Word document.
+5. The output Word document will be saved in the `Converted Report` directory with a timestamped filename.
 
-<p align="left">**Character Recognition with AWS Textract:** Extracts handwritten text, and outputs the result into a csv format</p>
+## File Structure
 
-###
+- **`parse_data.py`**: Script for processing CSV files and formatting data for Excel.
+- **`xl-doc_convert.py`**: Main script for the GUI and data conversion.
+- **`Base Template/sat_template_2.docx`**: Word document template with placeholders.
+- **`Excel Data`**: Directory containing sample Excel files.
+- **`Converted Report`**: Directory for storing generated Word reports.
 
-<h2 align="left">Tools Used</h2>
+## Future Enhancements
 
-###
+- Implement advanced error handling for invalid inputs.
+- Add support for additional file formats (e.g., PDFs).
+- Integrate Optical Character Recognition (OCR) for automated data extraction from handwritten or printed documents.
+- Enhance the GUI with more customization options and visual feedback.
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-line-wordmark.svg" height="40" alt="amazonwebservices logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-</div>
+## Author
 
-###
+**Evan Khuan Jing Jie**
+- Diploma in Computer Engineering, Singapore Polytechnic.
+- Internship at mVizn.
+
+## License
+
+This project is open-source and available under the MIT License.
