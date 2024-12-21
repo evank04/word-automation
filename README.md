@@ -26,7 +26,7 @@ This project automates the process of transferring data from multiple Excel spre
 ## File Structure
 
 - **`parse_data.py`**: Script for processing CSV files and formatting data for Excel.
-- **`xl-doc_convert.py`**: Main script for the GUI and data conversion.
+- **`xl2doc.py`**: Main script for the GUI and data conversion.
 - **`Base Template/sat_template_2.docx`**: Word document template with placeholders.
 - **`Excel Data`**: Directory containing sample Excel files.
 - **`Converted Report`**: Directory for storing generated Word reports.
