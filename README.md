@@ -2,21 +2,21 @@
 
 ###
 
-<p align="left">Context of Task:<br>- Transfer data from hardcopy to soft copy for digital record</p>
+<p align="left">This project automates the process of transferring data from multiple Excel spreadsheets into a formatted Word document. The purpose is to keep a digital record of hardcopies.</p>
 
 ###
 
 <div align="center">
-  <img src="https://evank04projectbucket.s3.ap-southeast-1.amazonaws.com/Screenshot+2024-12-21+175108.png"  />
+  <img height="" src="https://evank04projectbucket.s3.ap-southeast-1.amazonaws.com/Screenshot+2024-12-21+175108.png"  />
 </div>
 
 ###
 
-<h2 align="left">About me</h2>
+<h2 align="left">Features</h2>
 
 ###
 
-<p align="left"></p>
+<p align="left">**Character Recognition with AWS Textract:** Extracts handwritten text, and outputs the result into a csv format</p>
 
 ###
 
