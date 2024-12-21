@@ -2,7 +2,9 @@
 
 This project automates the process of transferring data from multiple Excel spreadsheets into a formatted Word document. It provides a graphical user interface (GUI) for ease of use and ensures consistent and accurate data formatting. The project is ideal for scenarios requiring repetitive data entry and document generation, such as generating Site Acceptance Test (SAT) reports.
 
-<img src="https://evank04projectbucket.s3.ap-southeast-1.amazonaws.com/Screenshot+2024-12-21+175108.png"/>
+<p align="center">
+  <img src="https://evank04projectbucket.s3.ap-southeast-1.amazonaws.com/Screenshot+2024-12-21+175108.png" alt="Example Output">
+</p>
 
 ## Features
 
