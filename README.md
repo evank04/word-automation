@@ -31,6 +31,11 @@ This project automates the process of transferring data from multiple Excel spre
 - **`Excel Data`**: Directory containing sample Excel files.
 - **`Converted Report`**: Directory for storing generated Word reports.
 
+## Project Outcome
+
+- **Time Savings**: Reduced the time required to transcribe report from ~60 min to ~10 min
+- **Error Reduction**: Automation minimized manual entry errors, ensuring higher accuracy.
+- **User-Friendly**: Simplified the process for users with no technical background via the GUI.
 
 
 ## Author
