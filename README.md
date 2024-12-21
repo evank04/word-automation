@@ -7,7 +7,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://evank04projectbucket.s3.ap-southeast-1.amazonaws.com/Screenshot+2024-12-21+175108.png"  />
+  <img src="https://evank04projectbucket.s3.ap-southeast-1.amazonaws.com/Screenshot+2024-12-21+175108.png"  />
 </div>
 
 ###
