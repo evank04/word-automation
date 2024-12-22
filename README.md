@@ -25,7 +25,7 @@ This project automates the process of transferring data from multiple Excel spre
 
 ## File Structure
 
-- **`parse_data.py`**: Script for processing CSV files and formatting data for Excel.
+- **`parse_data.py`**: Script for processing CSV files from AWS Textract.
 - **`xl2doc.py`**: Main script for the GUI and data conversion.
 - **`Base Template/sat_template_2.docx`**: Word document template with placeholders.
 - **`Excel Data`**: Directory containing Excel files to be converted.
