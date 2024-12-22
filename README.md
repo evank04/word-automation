@@ -28,12 +28,12 @@ This project automates the process of transferring data from multiple Excel spre
 - **`parse_data.py`**: Script for processing CSV files and formatting data for Excel.
 - **`xl2doc.py`**: Main script for the GUI and data conversion.
 - **`Base Template/sat_template_2.docx`**: Word document template with placeholders.
-- **`Excel Data`**: Directory containing sample Excel files.
+- **`Excel Data`**: Directory containing Excel files to be converted.
 - **`Converted Report`**: Directory for storing generated Word reports.
 
 ## Project Outcome
 
-- **Time Savings**: Reduced the time required to transcribe report from ~60 min to ~10 min
+- **Time Savings**: Streamlined the process and reduced the time required to transcribe report from ~60 min to ~10 min
 - **Error Reduction**: Automation minimized manual entry errors, ensuring higher accuracy.
 - **User-Friendly**: Simplified the process for users with no technical background via the GUI.
 
